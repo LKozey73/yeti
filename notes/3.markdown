@@ -1,0 +1,13 @@
+random thoughts on content layout and sets
+===
+
+* yeti must support albums, or sets in flickrese. it must also support sets of sets (collections in flickrese)
+* from a low-level perspective, a set will be just a directory with links to the original files. it follows that a collection will be just a directory with links to other directories.
+* the original files might not be files at all, they can be anywhere in the network.
+* should yeti be extra-lazy and allow external sets as well? (e.g., pointing to a flickr set)
+* set metadata is kept in a file sitting in the set's directory (the same for collections).
+* yeti is to be kept off webspace. it will generate all web-related content (html, feeds, css, thumbnails, low-res versions of images, etc) from its configuration and data repositories, and then move it into webspace.
+* the natural organisation is the trivial yyyy/mm/dd/epoch. this allows for easy creation of archives and also makes it easy to search for things in the backend.
+* changes are to be recorded in a file which is read every time yeti runs (fseventsd or auditd considered, but in the real world they are too hard to setup, and might even be impossible).
+* in the default mode of operation, the data repositories will hold high-quality versions of the images, and yeti will generate low-res versions and thumbnails which will live in webspace.
+* yeti should be smart enough to figure that something in the repository is not high-res, and use it as is. this threshold should be defined in the configuration.
