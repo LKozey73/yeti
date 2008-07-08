@@ -1,0 +1,54 @@
+=head1 NAME
+
+yeti - yeti eats teh images
+
+=head1 VERSION
+
+Version 0
+
+=head1 SYNOPSIS
+
+yeti is a photo album management and publishing software package.
+
+It's written in Perl, but one of the design goals is to make it as simple as
+possible to port to Python or Ruby.
+
+=head1 AUTHOR
+
+Pedro Figueiredo, C<< <me@pedrofigueiredo.org> >>
+
+=head1 BUGS
+
+No code, no bugs.
+
+Please send any comments and feature requests to C<me+yeti@pedrofigueiredo.org>.
+
+Eventually yeti will have a proper homepage.
+
+=head1 SUPPORT
+
+None.
+
+=head1 ACKNOWLEDGEMENTS
+
+=over 4
+
+=item * rui carmo, for yaki
+
+L<http://the.taoofmac.com/space/Yaki>
+
+=item * john gruber, for markdown
+
+L<http://daringfireball.net/projects/markdown/>
+
+=back
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2008 Pedro Figueiredo, all rights reserved.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+=cut
+
