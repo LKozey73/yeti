@@ -16,5 +16,5 @@ and now for something completely different.
 [2]: http://toomanylights.com/ "t o o m a n y l i g h t s"
 [3]: http://movabletype.org/ "movable type"
 [4]: http://www.pixelpost.org/ "pixelpost"
-[5]: https://github.com/pfig/yeti/tree/master "yeti on github"
+[5]: http://github.com/pfig/yeti/tree/master "yeti on github"
 

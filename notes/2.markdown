@@ -18,7 +18,7 @@ these are the starting points, much more will follow, i'm sure. in particular, i
 [2]: http://toomanylights.com/ "t o o m a n y l i g h t s"
 [3]: http://movabletype.org/ "movable type"
 [4]: http://www.pixelpost.org/ "pixelpost"
-[5]: https://github.com/pfig/yeti/tree/master "yeti on github"
+[5]: http://github.com/pfig/yeti/tree/master "yeti on github"
 [6]: http://en.wikipedia.org/wiki/Yeti "yeti on wikipedia"
 [7]: http://the.taoofmac.com/space/Yaki "yaki cms"
 [8]: http://the.taoofmac.com/ "the tao of mac"
