@@ -1,11 +1,11 @@
-package Yeti::Utils;
+package Yeti::Utils::Config;
 
 use warnings;
 use strict;
 
 =head1 NAME
 
-Yeti::Utils - Building blocks for Yeti
+Yeti::Utils::Config - Manipulate Yeti's configuration
 
 =head1 VERSION
 
@@ -15,30 +15,43 @@ Version 0.01
 
 our $VERSION = '0.01';
 
-
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
+This module parses and writes Yeti configurations.
 
-    use Yeti::Utils;
+    use Yeti::Utils::Config;
 
-    my $foo = Yeti::Utils->new();
+    my $config = Yeti::Utils::Config->parse( $file );
+    my $datadir = $config->datadir;
+
+    my $config = Yeti::Utils::Config->new();
     ...
+    $config->write;
+
+See the rest of this document for all functions and their usage.
 
 =head1 FUNCTIONS
 
-=head2 function1
+=head2 new
 
 =cut
 
-sub function1 {
+sub new {
 }
 
-=head2 function2
+=head2 parse
 
 =cut
 
-sub function2 {
+sub parse {
+    
+}
+
+=head2 write
+
+=cut
+
+sub write {
 }
 
 =head1 AUTHOR
@@ -57,7 +70,7 @@ as I make changes.
 
 You can find documentation for this module with the perldoc command.
 
-    perldoc Yeti::Utils
+    perldoc Yeti::Utils::Config
 
 You can also look for information at:
 
@@ -93,4 +106,4 @@ under the same terms as Perl itself.
 
 =cut
 
-45; # End of Yeti::Utils
+45; # End of Yeti::Utils:Config

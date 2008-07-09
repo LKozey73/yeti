@@ -20,11 +20,23 @@ perldoc command.
 
 You can also look for information at:
 
+    Yeti's home page
+        http://toomanylights.com/yeti
+
     Github
         http://github.com/pfig/yeti/tree
 
-    Yeti's home page
-        http://toomanylights.com/yeti
+    RT: CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Yeti-Utils
+
+    AnnoCPAN: Annotated CPAN documentation
+        http://annocpan.org/dist/Yeti-Utils
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/Yeti-Utils
+
+    Search CPAN
+        http://search.cpan.org/dist/Yeti-Utils
 
 
 COPYRIGHT AND LICENCE
