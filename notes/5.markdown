@@ -1,0 +1,10 @@
+photos in yeti, i
+===
+
+* the source of a photo can be a local file or somewhere in the network. when instantiating a photo object, the only mandatory parameter is the source, which should be a valid uri. currently only http and ftp are supported over the network.
+* try to extract as much metadata as possible from the file (reading the exif data), but allow this to be overridden. if overridden, rewrite the exif data in the web version of the photo.
+* use the file attributes to figure out the date and author. again, allow this to be overridden.
+* there is a difference between shooting date (from the exif data) and publishing date (from the file attributes). an entry will have its date set to the latter, while displaying the former in its metadata section.
+* the default for "web ready, don't convert" (but copy, never touch the original file) will be 800x533 @ 72dpi (configurable).
+* 800x533 @ 72dpi will also be the target for the large display version. the medium display version will be 600x400 @ 72dpi.
+* adjust these values to respect the original file's width/height ratio.
