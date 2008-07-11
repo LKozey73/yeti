@@ -1,0 +1,35 @@
+modules
+===
+
+this is a list of modules i *think* will be used, or that i'll be evaluating,
+loosely grouped by functionality.
+
+Config::Any
+Config::Tiny
+
+Carp
+Log::Dispatch
+Log::Log4perl
+MooseX::LogDispatch
+
+Class::Accessor
+Module::Pluggable
+Moose
+MooseX::LogDispatch
+
+URI
+HTTP::Request
+HTTP::Cookies
+LWP::UserAgent
+XML::Feed
+
+File::Find::Rule
+File::Find::Rule::Type
+File::Find::Rule::Age
+
+Imager
+Image::ExifTool
+
+DateTime
+
+Template
