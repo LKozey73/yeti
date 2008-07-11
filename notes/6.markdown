@@ -33,3 +33,5 @@ Image::ExifTool
 DateTime
 
 Template
+Text::Markdown
+Text::Textile
