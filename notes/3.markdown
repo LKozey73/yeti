@@ -11,3 +11,7 @@ random thoughts on content layout and sets
 * changes are to be recorded in a file which is read every time yeti runs (fseventsd or auditd considered, but in the real world they are too hard to setup, and might even be impossible).
 * in the default mode of operation, the data repositories will hold high-quality versions of the images, and yeti will generate low-res versions and thumbnails which will live in webspace.
 * yeti should be smart enough to figure that something in the repository is not high-res, and use it as is. this threshold should be defined in the configuration.
+* automatic generation of support files for things like [lightbox][1] and [fancyzoom][2]. these should obviously be written as plugins (so anyone can write generators for whatever they like).
+
+[1]: http://www.huddletogether.com/projects/lightbox2/ "Lightbox 2"
+[2]: http://www.cabel.name/2008/02/fancyzoom-10.html "FancyZoom"
