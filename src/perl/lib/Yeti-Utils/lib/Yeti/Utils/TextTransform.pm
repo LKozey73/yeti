@@ -5,42 +5,21 @@ use warnings;
 
 use Module::Pluggable require => 1;
 
+use Carp;
+
+use base qw/ Class::Accessor::Fast /;
+__PACKAGE__->mk_accessors( qw/ filter in out / );
+
+our $VERSION = "0.02";
+
 sub new {
     my $proto  = shift;
     my $class  = ref( $proto ) || $proto;
-    my $filter = shift;
+    my $self   = $class->SUPER::new( @_ );
     
-    my $self = { filter => $filter, in => "", out => "", };
+    croak "no filter defined." unless $self->filter;
     
-    return bless $self, $class;
-}
-
-sub filter {
-    my $self       = shift;
-    my ( $filter ) = @_;
-    
-    if ( @_ ) {
-        $self->{filter} = $filter;
-    }
-    
-    return $self->{filter};
-}
-
-sub in {
-    my $self     = shift;
-    my ( $text ) = @_;
-    
-    if ( @_ ) {
-        $self->{in} = $text;
-    }
-    
-    return $self->{in};
-}
-
-sub out {
-    my $self = shift;
-    
-    return $self->{out};
+    return $self;
 }
 
 sub convert {
