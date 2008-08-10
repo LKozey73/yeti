@@ -15,23 +15,28 @@ MooseX::LogDispatch
 Class::Accessor
 Module::Pluggable
 Moose
-MooseX::LogDispatch
 
 URI
+HTML::Tidy
 HTTP::Request
 HTTP::Cookies
 LWP::UserAgent
+LWP::UserAgent::Determined
 XML::Feed
 
+DBD::SQLite
 File::Find::Rule
 File::Find::Rule::Type
 File::Find::Rule::Age
 
 Imager
 Image::ExifTool
+Image::Imlib2
+Image::Imlib2::Thumbnail
 
 DateTime
 
 Template
+Text::Autoformat
 Text::Markdown
 Text::Textile
