@@ -15,30 +15,35 @@ Version 0.01
 
 our $VERSION = '0.01';
 
-
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
+This module creates a Yeti::Utils object providing several utility methods to
+deal with a Yeti instance:
 
+    use Yeti;
     use Yeti::Utils;
 
-    my $foo = Yeti::Utils->new();
+    # get a Yeti object somehow
+    my $foo = Yeti::Utils->new( { yeti => $instance } );
     ...
 
-=head1 FUNCTIONS
+=head1 METHODS
 
-=head2 function1
+=head2 new
 
-=cut
+Create a Yeti::Utils object, based on a Yeti instance.
 
-sub function1 {
-}
-
-=head2 function2
+    my $foo = Yeti::Utils->new( { yeti => $instance } );
 
 =cut
 
-sub function2 {
+sub new {
+    my $proto = shift;
+    my $class = ref( $proto ) || $proto;
+
+    my $self = shift;
+    
+    return bless $self, $class;
 }
 
 =head1 AUTHOR
