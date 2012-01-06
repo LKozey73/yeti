@@ -1,8 +1,6 @@
-modules
-===
+# Modules
 
-this is a list of modules i *think* will be used, or that i'll be evaluating,
-loosely grouped by functionality.
+For future reference:
 
 Config::Any
 Config::Tiny
@@ -40,3 +38,6 @@ Template
 Text::Autoformat
 Text::Markdown
 Text::Textile
+
+Dancer
+Mojolicious

@@ -1,0 +1,21 @@
+# Publishing with Yeti
+
+There will be no user interface for publishing in Yeti, at least from the start or written by me. What there will be is a library
+containing the basic publishing functions, which you'll be able to use in your web app or what have you. This library will provide
+the following:
+
+* going over the data repo and (re-)generating webspace stuff
+
+* checking for additions and/or changes
+
+* sorting through the arrivals and *classifying* them (more on this later)
+
+This leads to user authentication and authorization: SSH keys are pretty much painless, and something everyone uses every day.
+So, for each author, just stick an SSH key in the repo and that's that sorted out. From that moment on she can publish via scp or
+using any modern vcs. The latter gives me two things for free:
+
+* an exact copy of the live website on any of my computers, where I can try things out, without having to deploy another install.
+
+* offsite backups guaranteed to be in sync.
+
+* ability to roll back changes in a cinch.

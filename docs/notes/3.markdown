@@ -1,0 +1,23 @@
+# Random thoughts on content layout and sets
+
+* Yeti must support albums, or sets in flickrese. It must also support sets of sets (collections in flickrese)
+* From a low-level perspective, a set will be just a directory with links to the original files. It follows that a collection will
+  be just a directory with links to other directories.
+* The original files might not be files at all, they can be anywhere in the network.
+* Should Yeti be extra-lazy and allow external sets as well? (e.g., pointing to a Flickr set)
+* Set metadata is kept in a file sitting in the set's directory (the same for collections).
+* Yeti is to be kept off webspace. it will generate all web-related content (html, feeds, css, thumbnails, low-res versions of
+  images, etc) from its configuration and data repositories, and then move it into webspace.
+* The natural organisation is the trivial yyyy/mm/dd/epoch. This allows for easy creation of archives and also makes it easy to
+  search for things in the backend.
+* Changes are to be recorded in a file which is read every time yeti runs (fseventsd or auditd considered, but in the real world
+  they are too hard to setup, and might even be impossible).
+* In the default mode of operation, the data repositories will hold high-quality versions of the images, and Yeti will generate
+  low-res versions and thumbnails which will live in webspace.
+* Yeti should be smart enough to figure that something in the repository is not high-res, and use it as is. This threshold should
+  be defined in the configuration.
+* Automatic generation of support files for things like [Lightbox][1] and [FancyZoom][2]. these should obviously be written as
+  plugins (so anyone can write generators for whatever they like).
+
+[1]: http://www.huddletogether.com/projects/lightbox2/ "Lightbox 2"
+[2]: http://www.cabel.name/2008/02/fancyzoom-10.html "FancyZoom"

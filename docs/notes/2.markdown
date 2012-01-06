@@ -1,0 +1,22 @@
+# Yeti design notes, I
+
+To get the ball rolling:
+
+* It's called [Yeti][6], because I've been looking for something like it for a long time.
+* The first thing I did after a whole 2 minutes thinking about this was designing an entity-relationship diagram. It was very
+  pretty, except I don't want yeti to be database-driven. The relationships present are very simple, and the filesystem has served
+  me well in the past, it will do nicely for this.
+* If everything is a file, get as much information as possible from the file attributes.
+* Burn everything. Have as little client-time processing as possible. Keep the raw content away from the web, by the way.
+* An entry can be a photo, a text, a link or a combination of the above. The source of a photo can be anywhere in the network,
+  the image doesn't have to be in the disk.
+* Support for [Markdown][9]. i can't live without it.
+* Publish locally, or remotely through scp/git/rsync or a web service.
+
+These are the starting points, much more will follow, I'm sure. In particular, I've been thinking about the management interface
+and authentication / authorization, to start with, and have a (fairly) long list of what I think should be available to people
+publishing photos.
+
+[6]: http://en.wikipedia.org/wiki/Yeti "Yeti on Wikipedia"
+[9]: http://daringfireball.net/projects/markdown/ "markdown"
+
