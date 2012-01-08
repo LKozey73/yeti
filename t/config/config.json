@@ -1,0 +1,18 @@
+{
+  "title": "Too Many Lights",
+  "theme": "dark",
+  "themes_dir": "templates",
+  "output_dir": "web",
+  "input_dir": "descriptions",
+  "features": [ "atom", "mobile", "exif" ],
+  "sizes": {
+    "thumb": 80,
+    "small": 240,
+    "medium": 500,
+    "large": 800
+  },
+  "copyright": "Pedro Figueiredo",
+  "license": "CC-BY-2.0",
+  "license_url": "http://creativecommons.org/licenses/by/2.0/uk/",
+  "author": "Pedro Figueiredo"
+}

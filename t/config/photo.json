@@ -1,0 +1,11 @@
+{
+  "type": "file",
+  "title": "Cute cat",
+  "source": "toomanylights/cat.jpg",
+  "sets": [ "cats", "animals" ],
+  "copyright": "inherited",
+  "license": "inherited",
+  "author": "inherited",
+  "date_taken": "2012-01-03",
+  "tags": [ "cat", "pfig", "camera:make=Fuji" ]
+}
