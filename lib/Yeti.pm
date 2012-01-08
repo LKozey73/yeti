@@ -41,6 +41,7 @@ sub function1 {
 sub function2 {
 }
 
+
 =head1 AUTHOR
 
 Pedro Figueiredo, C<< <me at pedrofigueiredo.org> >>
@@ -50,8 +51,6 @@ Pedro Figueiredo, C<< <me at pedrofigueiredo.org> >>
 Please report any bugs or feature requests to C<bug-yeti at rt.cpan.org>, or through
 the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Yeti>.  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
-
-
 
 
 =head1 SUPPORT
@@ -89,7 +88,7 @@ L<http://metacpan.org/module/Yeti>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 Pedro Figueiredo.
+Copyright 2012 Pedro Figueiredo.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
